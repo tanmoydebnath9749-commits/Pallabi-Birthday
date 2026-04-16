@@ -85,7 +85,7 @@ elif st.session_state.page == 2:
 # Page 3: Birthday Wish & Photo
 elif st.session_state.page == 3:
     play_background_music("music.mp3")
-    st.markdown("<h1 style='text-align: center; color: #FF4B4B;'>Happy Birthday, Pallabi! 🎂 Scroll Down</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #FF4B4B;'>Happy Birthday, Pallabi! 🎂 </h1>", unsafe_allow_html=True)
     
     try:
         st.image("pallavi.jpeg", caption="The Birthday Queen 👑", use_container_width=True)
